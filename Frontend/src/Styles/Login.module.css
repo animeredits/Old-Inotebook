@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* background: linear-gradient(rgba(31, 0, 116, 0.1), rgba(11, 0, 33, 0.6)),
+      url(Halloween.jpg); */
+    /* background: url(bg.jpg); */
+    background-color: #23272f;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    accent-color: #602bff;
+}
+
+.form {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 100px #0e032f -2px -2px 100px #0a0222;
+    border: 1px solid #7e7e7e;
+    backdrop-filter: blur(1px);
+  }
