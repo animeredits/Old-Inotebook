@@ -6,7 +6,7 @@ const Login = (props) => {
   let navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5000/api/auth/login', {
+    const response = await fetch('https://server-ijep.onrender.com/api/auth/login', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -24,7 +24,7 @@ const Login = (props) => {
       // save the auth token and redirect
       localStorage.setItem('token', json.authtoken);
       props.showAlert("Logged in  Successfully", "success")
-      navigate('/Home')
+      navigate('/')
 
     } else {
       props.showAlert("Invalid Email and Password ", "danger")

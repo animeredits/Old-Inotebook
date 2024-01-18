@@ -6,7 +6,7 @@ const SignUp = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, password } = credentials;
-    const response = await fetch('http://localhost:5000/api/auth/createuser', {
+    const response = await fetch('https://server-ijep.onrender.com/api/auth/createuser', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -25,7 +25,7 @@ const SignUp = (props) => {
     if (json.success) {
       // save the auth token and redirect
       localStorage.setItem('token', json.authtoken);
-      navigate('/Home')
+      navigate('/')
       props.showAlert("Account Created Successfully", "success")
     } else {
       props.showAlert("Invalid Details", "danger")
