@@ -30,7 +30,7 @@
 <p>1. Clone the repository:</p>
 
 ```
-git clone - https://github.com/animeredits/Inotebook.git
+git clone https://github.com/animeredits/Inotebook.git
 ```
 
 ```
