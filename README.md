@@ -102,5 +102,5 @@ Technologies used in the project:
 *   MongoDB (with Mongoose ORM)
 *   JSON Web Tokens (JWT) for authentication
 *   <h3>Deployment :</h3>
-*   Render (for backend)
-*   Netlify (for frontend)
+
+*   Netlify (for Frontend & backend )
